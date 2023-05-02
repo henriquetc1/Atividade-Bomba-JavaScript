@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+input[type = "range"] {
+    width: 50vw;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+}
+
+.controls button {
+    width: 10em;
+    height: 3em;
+}
+
+#headerBomb {
+    z-index: +1;
+}
+
+#restart {
+    z-index: +1
+}
+
+#bombImg {
+    position: fixed;
+    width: 100%;
+}

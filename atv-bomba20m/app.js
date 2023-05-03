@@ -8,11 +8,11 @@ var bombaAtivada = document.getElementById("bombOn");
 var bombaDesativada = document.getElementById("bombOff");
 var bombStatus = [indicator = document.getElementById("bombAlert"), bombLabel = document.getElementById("statusBomb")];
 
-//SEU CÓDIGO AQUI
-
 var activate = true;
 indicator.style.backgroundColor = "#FF0000";
 bombLabel.innerHTML = "ARMADO";
+
+//SEU CÓDIGO AQUI
 
 //SEU CÓDIGO AQUI
 

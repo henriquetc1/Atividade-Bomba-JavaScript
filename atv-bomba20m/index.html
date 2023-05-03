@@ -11,6 +11,15 @@
 
 <body>
     <div class="monitor">
+        <p>
+            A bomba está programada para detonar quando a distância for superior a 20 metros. Precisamos que você adicione o seguinte:
+        </p>
+
+        <ul>
+            <li>o indicador da bomba tem que ficar cinza quando estiver desarmado</li>
+            <li>o texto do indicador deve escrever "DESARMADO" quando estiver seguro</li>
+            <li>a bomba, OBVIAMENTE, deve ficar inoperante após clicar em desativar</li>
+        </ul>
 
     </div>
 
@@ -19,11 +28,17 @@
 
     <div class="controls">
         <button type="button" id="bombOn">ATIVAR</button>
+        
         <button type="button" id="bombOff">DESATIVAR</button>
+        
+        <div class="bombBox">
+            <div id="bombAlert"></div>
+            <p id="statusBomb">DESARMADO</p>
+        </div>
     </div>
 
     <img src="kaboom.webp" alt="" id="bombImg">
-    <h3 id="headerBomb">A BOMBA DETONOU.</h3>
+    <h3 id="headerBomb">A BOMBA EXPLODIU.</h3>
     <button type="button" id="restart" onclick="window.location.reload();">RECOMEÇAR</button>
 
 
